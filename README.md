@@ -1,2 +1,11 @@
 # PythonAlgo
-python alogorithm
+
+## python alogorithm
+
+- Algorithm
+  - bfs
+  - dfs
+  - sorting
+- assignments
+- baekjoon
+- swea
