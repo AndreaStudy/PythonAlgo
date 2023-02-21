@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a52510b-2477-419f-bf54-a036ec1a24ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="2c0f6b68-9c9e-43fd-8ed3-23d484415c13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/2001/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/2001/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/array_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/contact/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/contact/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/cubic_root/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/cubic_root/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/frequen_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/gopull/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/gopull/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/gopull/sol2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/homesecurity/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/homesecurity/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/maze2/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/maze2/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/number_rotate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/sudoku.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/two_numberlist.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2LzT6xnHtPqvbDV8plSNrQ0VeGU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2M29GtMB21Ivuf6tFAib8RFl7EE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,7 +39,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sol (1)">
+    <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAlgo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/first_fishbread" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/first_fishbread/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -31,11 +69,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/homesecurity" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/magnetic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/homesecurity/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/magnetic/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -46,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (1)" />
         <item itemvalue="Python.sol" />
       </list>
     </recent_temporary>
@@ -53,11 +92,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a52510b-2477-419f-bf54-a036ec1a24ee" name="Default Changelist" comment="" />
-      <created>1676872739961</created>
+      <changelist id="2c0f6b68-9c9e-43fd-8ed3-23d484415c13" name="Default Changelist" comment="" />
+      <created>1676954717969</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676872739961</updated>
+      <updated>1676954717969</updated>
     </task>
     <servers />
   </component>

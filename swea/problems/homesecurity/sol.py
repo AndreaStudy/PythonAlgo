@@ -16,7 +16,7 @@ for tc in range(1, T+1):
             if arr[i][j] == 1:
                 house.append((i,j))
 
-    for k in range(2, K+1):
+    for k in range(1, K+1):
         cost = k*k + (k-1)*(k-1)
         for i in range(N):
             for j in range(N):
