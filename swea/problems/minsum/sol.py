@@ -1,5 +1,4 @@
 import sys
-
 sys.stdin = open('input.txt')
 
 dx = [1, 0]
