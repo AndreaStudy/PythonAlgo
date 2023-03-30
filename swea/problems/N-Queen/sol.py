@@ -1,6 +1,3 @@
-import sys
-sys.setrecursionlimit(10**9)
-
 def dfs(n):
     global cnt
     if n == N:
@@ -13,13 +10,15 @@ def dfs(n):
             visited1[d] = visited2[n+d] = visited3[n-d] = 0
 
 
-N = int(input())
+T = int(input())
+for tc in range(1, T+1):
+    N = int(input())
 
-visited1 = [0]*N
-visited2 = [0]*(2*N)
-visited3 = [0]*(2*N)
+    visited1 = [0]*N
+    visited2 = [0]*(2*N)
+    visited3 = [0]*(2*N)
 
-cnt = 0
-dfs(0)
+    cnt = 0
+    dfs(0)
 
-print(cnt)
+    print(f'#{tc} {cnt}')
