@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88d87ebd-46a3-4ad5-9e60-34f3db3a15e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/gold/g4_10830.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/gold/g4_10830.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/gold/g4_2580.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/gold/g4_2580.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/gold/g4_9663.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/gold/g4_9663.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/silver/s1_11729.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/silver/s1_11729.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/silver/s2_15663.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/silver/s2_15663.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/silver/s2_17829.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/silver/s2_17829.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/problems/eletricbus2/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/problems/eletricbus2/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +32,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/workdevide" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/bankWork" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/workdevide/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/bankWork/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,11 +53,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/highShelf" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/cook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/highShelf/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/cook/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,32 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/binarySearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/hamburgerDiet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/binarySearch/sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sol (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonAlgo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/partSequenceSum" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/partSequenceSum/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/hamburgerDiet/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,11 +95,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/minCreateCost" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/gridNumPaste" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/minCreateCost/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/gridNumPaste/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAlgo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/pool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/pool/sol2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,10 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.sol (3)" />
-        <item itemvalue="Python.sol (5)" />
+        <item itemvalue="Python.sol (4)" />
         <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol" />
-        <item itemvalue="Python.sol (4)" />
+        <item itemvalue="Python.sol2" />
       </list>
     </recent_temporary>
   </component>
