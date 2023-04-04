@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b0c145-a99f-451f-bfe1-30528ac209a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/problems/devideGroup/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/swea/problems/devideGroup/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/problems/devideGroup/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/problems/devideGroup/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/problems/gridNumPaste/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/problems/gridNumPaste/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/problems/hikingRoad/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/problems/hikingRoad/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/problems/microorganism/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/problems/microorganism/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/minCost" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/minCost/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/hikingRoad" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/minMoveDistance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/hikingRoad/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/minMoveDistance/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,11 +97,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/devideGroup" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/MST" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/devideGroup/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/MST/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAlgo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/problems/minCost" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/problems/minCost/sol2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,8 +135,9 @@
       <list>
         <item itemvalue="Python.sol (3)" />
         <item itemvalue="Python.sol (2)" />
-        <item itemvalue="Python.sol (1)" />
+        <item itemvalue="Python.sol2" />
         <item itemvalue="Python.sol" />
+        <item itemvalue="Python.sol (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -131,5 +151,22 @@
       <updated>1680497291462</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/swea/problems/desertCafe/sol.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="prev" language="Python" />
+        <watch expression="result" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

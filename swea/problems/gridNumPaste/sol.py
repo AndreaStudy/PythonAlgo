@@ -22,4 +22,5 @@ for tc in range(1, T+1):
             dfs(1, arr[i][j], i, j)
 
     ans = len(sset)
+    print(*sset)
     print(f'#{tc} {ans}')
