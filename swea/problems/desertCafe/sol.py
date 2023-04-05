@@ -31,7 +31,7 @@ for tc in range(1, T+1):
     result = 0
     total = 1
     prev = []
-    for i in range(N-1):
+    for i in range(N-2):
         for j in range(1, N-1):
             prev.append(arr[i][j])
             find(j, i, j, i, 0)
