@@ -1,52 +1,65 @@
 import sys
 input = sys.stdin.readline
 
-def rotate(n, d):
-    if cycle[0][2] != cycle[1][6]:
-        temp[0] = temp[1] = 1
-    if cycle[1][2] != cycle[2][6]:
-        temp[1] = temp[2] = 1
-    if cycle[2][2] != cycle[3][6]:
-        temp[2] = temp[3] = 1
+def rightrotate(n):
+    if n == 4:
+        return
+    if cycle[n-1][2] != cycle[n][6]:
+        temp[n-1] = temp[n] = 1
+        rightrotate(n+1)
+    return
+
+def leftrotate(n):
+    if n == 1:
+        return
+    if cycle[n-1][6] != cycle[n-2][2]:
+        temp[n-1] = temp[n-2] = 1
+        leftrotate(n-1)
+    return
+
+def cal(d):
     for i in range(4):
         if temp[i]:
-            if n in (1,3):
+            if i in (0,2):
                 if d == 1:
-                    tmp = [cycle[n-1].pop()]
-                    cycle[n-1] = tmp + cycle[n-1]
+                    tmp = [cycle[i].pop()]
+                    cycle[i] = tmp + cycle[i]
+                    print('1')
                 else:
-                    tmp = [cycle[n-1][0]]
-                    cycle[n-1] = cycle[n-1][1:]+tmp
+                    tmp = [cycle[i][0]]
+                    cycle[i] = cycle[i][1:]+tmp
+                    print('2')
             else:
                 if d == 1:
-                    tmp = [cycle[n-1][0]]
-                    cycle[n-1] = cycle[n-1][1:]+tmp
+                    tmp = [cycle[i][0]]
+                    cycle[i] = cycle[i][1:]+tmp
+                    print('3')
                 else:
-                    tmp = [cycle[n-1].pop()]
-                    cycle[n-1] = tmp + cycle[n-1]
+                    tmp = [cycle[i].pop()]
+                    cycle[i] = tmp + cycle[i]
+                    print('4')
                 
-cycle = [list(map(int, input().split())) for _ in range(4)]
+cycle = [list(input().rstrip()) for _ in range(4)]
 K = int(input())
 for _ in range(K):
     temp = [0, 0, 0, 0]
     N, dir = map(int, input().split())
-    rotate(N, dir)
+    rightrotate(N)
+    leftrotate(N)
+    cal(dir)
+    for i in cycle:
+        print(*i)
     
 
 # 계산
-
-
-
-
-# 1번의 2번인덱스와 2번의 6번 인덱스
-# 2번의 2번인덱스와 3번의 6번 인덱스
-# 3번의 2번인덱스와 4번의 6번 인덱스
-
-# 2번이 돌아갈때  모든 인덱스를 체크 하여 돌아가는지 확인
-# 돌아가는 바퀴와 인덱스 확인 후 돌리기
-# n = 1, d= 1,-1 일때
-# 시계, 반시계, 시계, 반시계
-# 반시계, 시계, 반시계, 시계
-# n = 2, d= 1, -1
-# 반시계, 시계, 반시계, 시계
-# ....
+result = 0
+if cycle[0][0] == '1':
+    result += 1
+if cycle[1][0] == '1':
+    result += 2
+if cycle[2][0] == '1':
+    result += 4
+if cycle[3][0] == '1':
+    result += 8
+    
+print(result)
