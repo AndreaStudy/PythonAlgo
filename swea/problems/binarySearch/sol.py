@@ -1,7 +1,9 @@
 import sys
-sys.stdin = open('input.txt')
+from bisect import bisect_left
+sys.stdin = open('swea/problems/binarySearch/input.txt')
 
 T = int(input())
+
 
 def binarySearch(start, end, target):
     global result, flag
@@ -15,15 +17,16 @@ def binarySearch(start, end, target):
     if start == end:
         return
     elif N_list[middle] > target:
-        if flag in (0,2):
+        if flag in (0, 2):
             flag = 1
             binarySearch(start, middle-1, target)
         flag = 3
     else:
-        if flag in (0,1):
+        if flag in (0, 1):
             flag = 2
             binarySearch(middle+1, end, target)
         flag = 3
+
 
 for tc in range(1, T+1):
     N, M = map(int, input().split())
@@ -31,9 +34,9 @@ for tc in range(1, T+1):
     M_list = list(map(int, input().split()))
 
     result = 0
-    
+
     for target in M_list:
         flag = 0
         binarySearch(0, N-1, target)
-    
+
     print(f'#{tc} {result}')
