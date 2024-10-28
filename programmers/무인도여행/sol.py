@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(10**9)
+
 d = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
 def dfs(maps, i, j, n, m, visit):
